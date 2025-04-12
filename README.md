@@ -40,4 +40,4 @@ Valider rapidement si les utilisateurs :
 
 ---
 
-**Made with ❤️ by [TonNom] & [DevFullStack]**
+**Made with ❤️ by Vamé T.**
