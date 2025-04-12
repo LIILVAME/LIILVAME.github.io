@@ -1,67 +1,101 @@
-
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Service de livraison de médicaments, simple et rapide.">
     <title>Livraison de Médicaments</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
-            padding: 40px;
-            background-color: #f9f9f9;
-            color: #333;
+            font-family: 'Inter', sans-serif;
+            background-color: #F2FDFB;
+            color: #263238;
             line-height: 1.6;
+            padding: 40px;
         }
+
         .container {
             max-width: 600px;
             margin: auto;
             background: white;
             padding: 30px;
-            border-radius: 8px;
-            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            border-radius: 12px;
+            box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
         }
+
         h1 {
-            color: #1a73e8;
+            color: #00897B;
         }
-        ul {
-            list-style-type: "✅ ";
-            padding-left: 20px;
-        }
+
         .cta {
-            display: inline-block;
-            background-color: #25D366;
+            margin-top: 20px;
+            background-color: #00897B;
             color: white;
             padding: 15px 25px;
-            margin-top: 20px;
+            border-radius: 8px;
+            font-weight: 600;
             text-decoration: none;
-            font-weight: bold;
-            border-radius: 6px;
             transition: background 0.3s ease;
         }
+
         .cta:hover {
-            background-color: #1da851;
+            background-color: #47e8d5;
         }
+
         .tagline {
             margin-top: 30px;
             font-style: italic;
-            color: #777;
+            color: #607D8B;
             font-size: 0.95em;
+        }
+
+        .notification {
+            color: #F9A825;
+            font-weight: bold;
+            margin-bottom: 20px;
         }
     </style>
 </head>
+
 <body>
     <div class="container">
-        <h1>Vos médicaments, livrés chez vous en quelques clics.</h1>
+        <header>
+            <p class="notification">🚀 Nouveau service en cours de test</p>
+            <h1>Vos médicaments, livrés chez vous en quelques clics.</h1>
+        </header>
         <ul>
-            <li>Trouvez la pharmacie la plus proche avec votre médicament en stock</li>
+            <li>Trouvez la pharmacie la plus proche de votre domicile avec votre médicament en stock</li>
             <li>Faites-vous livrer à domicile, au bureau ou chez un proche</li>
             <li>Payez en toute sécurité par Orange Money, carte ou Wave</li>
         </ul>
-        <a class="cta" href="https://wa.me/330768373795?text=Bonjour%2C+je+veux+me+faire+livrer+un+m%C3%A9dicament+depuis+votre+app+%F0%9F%8F%A5" target="_blank">
+        <a class="cta" href="https://tally.so/r/wkrR5M" target="_blank"
+            target="_blank" rel="noopener noreferrer">
             Je veux me faire livrer un médicament
         </a>
         <p class="tagline">🚀 Déjà +43 personnes ont demandé à tester ce service cette semaine !</p>
     </div>
 </body>
+
 </html>
+<style>
+    ul {
+        list-style: none;
+        padding-left: 0;
+    }
+    ul li {
+        position: relative;
+        padding-left: 35px;
+        margin-bottom: 15px;
+    }
+    ul li::before {
+        content: "💊";
+        position: absolute;
+        left: 0;
+        top: 0;
+        font-size: 1.2em;
+    }
+    ul li:last-child {
+        margin-bottom: 30px;
+    }
+</style>
