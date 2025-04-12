@@ -1,6 +1,3 @@
-# Re-execute after kernel reset to regenerate the responsive HTML file
-
-responsive_html = """
 <!DOCTYPE html>
 <html lang="fr">
 
@@ -26,17 +23,21 @@ responsive_html = """
             padding: 25px;
             border-radius: 12px;
             box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+            box-sizing: border-box;
         }
 
         h1 {
             color: #00897B;
             font-size: 1.8em;
+            margin-bottom: 1em;
         }
 
         .cta {
             display: block;
             width: 100%;
+            max-width: 100%;
             text-align: center;
+            margin: 0 auto;
             margin-top: 20px;
             background-color: #00897B;
             color: white;
@@ -45,6 +46,7 @@ responsive_html = """
             font-weight: 600;
             text-decoration: none;
             transition: background 0.3s ease;
+            box-sizing: border-box;
         }
 
         .cta:hover {
@@ -56,12 +58,14 @@ responsive_html = """
             font-style: italic;
             color: #607D8B;
             font-size: 0.95em;
+            text-align: center;
         }
 
         .notification {
             color: #F9A825;
             font-weight: bold;
             margin-bottom: 20px;
+            text-align: center;
         }
 
         ul {
@@ -120,11 +124,3 @@ responsive_html = """
 </body>
 
 </html>
-"""
-
-# Save the responsive HTML file
-file_path = "/mnt/data/LandingPage_Medicaments_Responsive.html"
-with open(file_path, "w", encoding="utf-8") as f:
-    f.write(responsive_html)
-
-file_path
