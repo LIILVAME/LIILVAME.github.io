@@ -12,31 +12,30 @@ Valider rapidement si les utilisateurs :
 
 ## 🌍 Lien du site
 
-🔗 [https://tonpseudo.github.io/med-delivery-mvp/](https://LIILVAME.github.io/med-delivery-mvp/)  
-*(à remplacer par l’URL exacte une fois activée)*
+🔗 [https://liilvame.github.io](https://liilvame.github.io)
 
 ## ⚙️ Tech Stack
 
 - HTML/CSS pur (aucun framework)
 - Hébergement via GitHub Pages
-- Redirection vers WhatsApp avec message pré-rempli
+- Redirection vers Tally.io avec message pré-rempli pour récupérer les informations et les questions/feedbacks
 
 ## ✅ Contenu de la page
 
 - Titre accrocheur
 - Liste des bénéfices utilisateur
-- Call-to-action cliquable vers WhatsApp
+- Call-to-action cliquable vers Tally.io
 - Mini-stats de crédibilité
 
 ## 📦 Fichier principal
 
-- `index.html` : page unique contenant le pitch + bouton WhatsApp
+- `index.html` : page unique contenant le pitch + bouton tally.io
 
 ## ✨ Étapes suivantes
 
-- Intégrer Google Forms ou API WhatsApp Business pour suivi
+- Intégrer le suivi du churn sur le remplissage de données
 - A/B tester différents messages ou visuels
-- Connecter un CRM ou base de données pour récolter les leads
+- Connecter un CRM ou base de données pour récolter les leads (pour l'instant on utilise Notion)
 
 ---
 
